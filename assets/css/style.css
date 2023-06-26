@@ -21,6 +21,7 @@ body {
 }
 
 .header {
+    /* sets background color text color */
     background-color: lightblue;
     color: palegoldenrod;
     display: flex;
@@ -31,6 +32,7 @@ body {
 
 
 .nav-style {
+    /* sets width and flex  */
     width: 400px;
     display: flex;
     flex-direction: row;
@@ -40,6 +42,7 @@ body {
 }
 
 a {
+    /* sets link color */
     color: palegoldenrod;
 }
 
@@ -50,6 +53,7 @@ p {
 }
 
 .banner {
+    /* sets height and width for img */
     height: 40px;
     width: 100%;
     background-image: url("../images/381480.jpg");
@@ -60,6 +64,7 @@ p {
 
 section,
 footer {
+    /* sets background color and makes flex containers for section and footer */
     background-color: lightblue;
     padding: 20px;
     margin: 20px;
@@ -67,38 +72,46 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 20px;
 }
 
 
 #context-head {
+    /* sets width */
 
     width: 20%;
 }
 
 #context-text {
+    /* sets width */
     width: 60%;
     justify-content: right;
 
 }
 
 #context-img {
+    /* Sets border radius an size of img */
     max-height: 300px;
     max-width: 200;
+    border-radius: 20px;
 
 }
 
 #projecthead {
+    /* sets width */
     width: 20%;
 
 }
 
 #project {
+    /* sets width and height */
     width: 75%;
     height: 50%;
 
 }
 
 .project-container {
+    /* creates container  */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,13 +120,14 @@ footer {
 }
 
 .over-container {
+    /* sets position */
     position: relative;
 
 }
 
 .over {
-
-    background-color: white;
+    /* sets text color and position of overlay */
+    color: white;
     position: absolute;
     bottom: 10px;
 
@@ -140,11 +154,13 @@ footer {
 }
 
 #footerheading {
+    /* sets width */
     width: 20%;
 
 }
 
 #footer-links {
+    /* sets width of conatainer and flex direction ; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -165,6 +181,7 @@ footer {
     }
 
     #project {
+        sets height and width of container
         width: 60%;
         height: 30%;
     }
