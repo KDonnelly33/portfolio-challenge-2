@@ -181,7 +181,7 @@ footer {
     }
 
     #project {
-        sets height and width of container
+        /* sets height and width of container */
         width: 60%;
         height: 30%;
     }
